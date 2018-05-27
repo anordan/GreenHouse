@@ -1,0 +1,480 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: .2em;
+	padding-left: .5em;
+	color: #000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 4em;
+	letter-spacing: 7px;
+	float: left;
+}
+
+h5 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1em;
+	letter-spacing: 7px;
+	color: #32632d;
+}
+
+h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #96b260;
+	
+	
+}
+
+
+h2 {
+	padding: .5em 3em .5em 3em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+	text-align: center;
+	clear: both;
+	display: inline-block;
+	
+	
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	color: #32632d;
+	letter-spacing: 7px;
+	cursor: pointer;
+	
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-left: 5em;
+	margin-right: 5em;
+	text-align: center;
+}
+
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: .7em;
+	line-height: 1.5em;
+	text-align: left;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: 2px solid #000;
+	width: 50%;
+}
+
+
+/*  GREEN HOUSE INDEX PAGE BIG LOGO-----------------------     */
+#logo {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+
+}
+/*  MAIN NAV / top nav-----------------------     */
+
+
+
+#main-nav {
+	
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+#main-nav ul{
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #000;
+	font-weight: bolder;
+	border: 2px solid #000;
+	padding: 1em;
+	margin-right: 2.5em;
+	
+	
+}
+
+#main-nav li{
+	float: right;
+	color: #000;
+	letter-spacing: 3px;
+	padding: .5em;
+}
+
+#main-nav a {
+	text-decoration: none;
+	padding: 0;
+	color: #000;
+}
+
+#main-nav a:hover {
+	color: #96b260;
+	border-bottom: 1px solid #000;
+}
+
+
+/*  INDEX PAGE LINKS-----------------------     */
+
+.img-links {
+	text-align: center;
+	border: 1px solid #000;
+	margin: 5em;
+	padding: 0;
+}
+
+.img-links img {
+	max-width: 85%;
+	
+}
+
+.img-links li {
+	font-size: 1em;
+	padding: .5em;
+	float: right;
+	max-width: 20em;
+}
+
+.img-links ul{
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	margin: 1em;
+}
+.img-links a {
+	color: #000;
+	text-decoration: none;
+}
+
+.img-links a:hover {
+	color: #96b260;
+}
+
+
+/*  INDEX PAGE SHOP LINK-----------------------     */
+.shop-link {
+	font-size: 1.1em;
+	text-align: center;
+	margin: 1em 4em;
+	padding: 4em 1em;
+	clear: both;
+	background-color: #fff2fa;
+	
+}
+
+.shop-link img {
+	max-width: 95%;
+}
+
+.shop-link ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.shop-link a {
+	text-decoration: none;
+	color: #000;
+}
+
+.shop-link a:hover {
+	color: #96b260;
+}
+
+/*  SHOP PAGE-----------------------     */
+.shop-photos {
+	text-align: center;
+	margin: 2em;
+	padding: 2em;
+	background-color: #fff2fa;
+	clear: both;
+}
+
+.shop-photos img {
+	max-width: 85%;
+	padding: 2em 2em 3em 2em;
+}
+
+.shop-photos h2 {
+	font-size: 2em;
+}
+
+.shop-photos a {
+	text-decoration: none;
+	color: #96b260
+}
+
+.shop-photos a:hover {
+	color: #000;
+}
+
+.shop-photos h4 {
+	font-size: 1em;
+}
+
+/*  LEARN PAGE-----------------------     */
+.learn {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	margin: 2em;
+	padding: 2em;
+	background-color: #fff2fa;
+	clear: both;
+	text-align: center;
+}
+.learn-img {
+	text-align: center;
+}
+
+.learn-img img {
+	max-width: 70%;
+}
+
+.learn p {
+	max-width: 85%;
+	display: inline-block;
+	text-align: left;
+	margin-left: 12%;
+	
+}
+
+.learn img {
+	max-width: 70%;
+	text-align: center;
+	margin-left: 2em;
+}
+
+
+/*  FREQUENTLY ASKED QUESTIONS PAGE-----------------------     */
+.faq {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	margin: 2em;
+	padding: 2em;
+	background-color: #fff2fa;
+	clear: both;
+	text-align: center;
+}
+
+.faq p {
+	text-align: center;
+}
+
+/*  INSTAGRAM PAGE -----------------------     */
+
+.instagram-photos img {
+	max-width: 70%;
+}
+
+.instagram-photos {
+	clear: both;
+	margin: 2em;
+	padding-top: 2em;
+	background-color: #fff2fa;
+	padding-right: 8em;
+	text-align: center;
+	
+}
+
+.instagram-photos ul {
+	list-style-type: none;
+	display: inline-block;
+	
+}
+
+.instagram-photos li {
+	float: right;
+	padding: 10px;
+	
+}
+
+.instagram-photos h2 {
+	margin-left: 7%;
+	font-size: 2em;
+}
+
+/*  SPOTLIGHT PAGE-----------------------     */
+
+.spotlight {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	padding: 2em;
+	text-align: center;
+	margin: 2em;
+	background-color: #fff2fa;
+	clear: both;
+}
+
+.spot-img {
+	text-align: center;
+	padding-top: 3em;
+}
+
+.spot-img img {
+	max-width: 60%;
+}
+
+.spotlight p {
+	width: 85%;
+}
+
+/*  ABOUT PAGE -----------------------     */
+.about{
+	text-align: center;
+	padding: 2em;
+	clear: both;
+	margin: 2em;
+	background-color: #fff2fa;
+}
+
+.about p {
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	font-size: 1em;
+	width: 75%;
+	text-align: left;
+	line-height: 1em;
+	
+}
+
+.about img {
+	max-width: 70%;
+}
+
+.about h2 {
+	font-size: 2em;
+}
+
+.about h4 {
+	font-size: 1em;
+}
+
+
+/*  CONTACT PAGE-----------------------     */
+
+input[type=text], select, textarea {
+    width: 100%;
+	font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit] {
+	font-family: 'Roboto' sans-serif;
+    background-color: #fff;
+    color: #1f4f30;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+
+input[type=submit]:hover {
+    background-color: #000;
+	color: #fff;
+}
+
+
+.container {
+	font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    background-color: #fff2fa;
+    padding: 20px;
+	margin: 3em;
+	clear: both;
+	text-align: center;
+	
+	
+	
+}
+
+.contact {
+	margin: 4em;
+	background-color: #fff2fa;
+	clear: both;
+	max-width: 70%;
+}
+
+/*  FOOTER-----------------------     */
+
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	clear: both;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 0;
+	text-align: center;
+	background-color: #f7f9f7;
+}
+.icons {
+	margin-left: 0;
+	font-size: 1.3em;
+	padding-bottom: .8em;
+	display: inline-block;
+
+	
+	
+}
+
+.icons a {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 10px;
+}
+.icons a:hover {
+	color: #96b260;
+}
+
+
+
+@media only screen and (min-width : 320px) {
+
+
+}
+
+@media only screen and (min-width : 768px) {
+
+}
+
+
+/* Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+
+
+
+
